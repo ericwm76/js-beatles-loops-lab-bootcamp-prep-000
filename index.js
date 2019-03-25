@@ -28,9 +28,10 @@ var array = [];
 }
 
 function iLoveTheBeatles(num) {
-  var array = []
+  var array = [];
   do {
-  console.log("I love the Beatles!");
-  } while (incrementNumber() < 15);
-  return array
+    array.push("I love the Beatles!")
+    num++;
+  } while (num < 15);
+  return array;
 }
