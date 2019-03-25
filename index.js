@@ -27,7 +27,7 @@ var array = [];
     return array;
 }
 
-function iLoveTheBeatles() {
+function iLoveTheBeatles(num) {
   i = i + 1;
   return i;
 }
